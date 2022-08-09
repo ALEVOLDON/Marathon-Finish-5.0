@@ -3,6 +3,6 @@
     font-style: normal;
     font-weight: 400;
     src: local("Montserrat"),
-         url("../fonts/Montserrat-Regular.ttf") format("ttf"),
+         url("../fonts/Montserrat-Regular.ttf") format("ttf");
          
   }
