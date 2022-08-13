@@ -1,10 +1,10 @@
-
 :root {
-    --P1-color: #EFE6E4;
-    --P2-color: #E2C4BA;
-    --S1-color: #CC8B86;
-    --S2-color: #8D7370;
-  }
+  --P1-color-bg: #efe6e4;
+  --P2-color-bg: #e2c4ba;
+  --S1-color-bg: #cc8b86;
+  --S2-color-bg: #8d7370;
+  --color-text: #533738;
+}
 
 *,
 *::before,
@@ -12,71 +12,66 @@
   box-sizing: border-box;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-p,
-figure,
-picture {
-  margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  font-weight: 400;
-}
-
-img,
-picture {
-  display: block;
-  max-width: 100%;
-}
-
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    scroll-behavior: auto !important;
-    transition-duration: 0.01ms !important;
-  }
-}
-
 body {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    color: #533738;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  background-color: var(--P1-color-bg);
+  color: var(--color-text);
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-text);
+}
+
+p {
+  font-size: 18px;
+  line-height: 30px;
+}
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* header */
+
+.logo {
+  text-transform: uppercase;
+}
+
+/* headline */
+
+.headline h3 {
+  font-size: 50px;
+  line-height: 62px;
+}
+
+.headline a {
+  padding: 25px 66px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: var(--S1-color-bg);
+}
+
