@@ -68,6 +68,10 @@ h2 {
 
 /* headline */
 
+.headline {
+  background-image: url("../img/main-bg.jpg");
+}
+
 .headline h3 {
   font-size: 50px;
   line-height: 62px;
@@ -138,5 +142,10 @@ h2 {
 .how-we-work {
   background-color: var(--P2-color-bg);
 }
+
+/* reviews */
+
+/* footer */
+
 
 
