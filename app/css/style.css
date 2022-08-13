@@ -127,3 +127,10 @@ h2 {
   line-height: 37px;
 }
 
+/* team */
+
+.team {
+  background-color: var(--P2-color-bg)
+}
+
+
