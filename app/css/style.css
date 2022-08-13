@@ -75,3 +75,28 @@ p {
   background-color: var(--S1-color-bg);
 }
 
+/* about */
+
+.about h2 {
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.about dl {
+  background-color: var(--S2-color-bg);
+}
+
+.about dt {
+  font-size: 50px;
+  line-height: 62px;
+  color: #FFFFFF;
+}
+
+.about dd {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
