@@ -41,6 +41,12 @@ p {
   line-height: 30px;
 }
 
+h2 {
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -77,12 +83,6 @@ p {
 
 /* about */
 
-.about h2 {
-  font-size: 40px;
-  line-height: 50px;
-  text-transform: uppercase;
-}
-
 .about dl {
   background-color: var(--S2-color-bg);
 }
@@ -100,3 +100,30 @@ p {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+
+/* our-work */
+
+.our-work dl {
+  background-color: var(--S2-color-bg);
+}
+
+.our-work dt {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.our-work dd {
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.our-work a {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+}
+
